@@ -1,0 +1,234 @@
+@font-face {
+    src: url(../fonts/NunitoSans-Regular.ttf);
+    font-family: Nunito;
+}
+@font-face {
+    src: url(../fonts/YesevaOne-Regular.ttf);
+    font-family: Yeseva;
+}
+body {
+    font-family: Nunito, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1438px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    /* color: white; */
+}
+
+a:hover {
+    transition: 0s;
+    color: #E3B873;
+}
+.header {
+    background-color: #131313;
+}
+.header-content {
+    height: 83px;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 11px;
+    color: white;
+}
+
+.logo {
+    color: #E3B873;
+}
+.nav {
+    list-style: none; /*список без маркировки*/
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.nav_item {
+    margin-right: 47px;
+    text-decoration: none;
+    color: white;
+}
+.button {
+    width: 161px;
+    height: 37px;
+    background-color: #E3B873;
+    color: white;
+    font-style: italic;
+    font-size: 11px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 13px 33px;
+}
+.hero {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    position: relative;
+    height: 707px;
+    padding-top: 194px;
+    padding-left: 134px;
+}
+.container_text {
+    width: 605px;
+    height: auto;
+    color: white;
+}
+.header_1 {
+    text-transform: uppercase;
+    font-family: Yeseva, serif;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+.header_1 span {
+    color: #E3B873;
+}
+.text {
+    font-size: 22px;
+}
+.buttons {
+    margin-top: 41px;
+}
+
+.calculate, .submit {
+    width: 207px;
+    height: 51px;
+    background: rgba(255, 255, 255, 0);
+    border: white 2px solid;
+    font-size: 11px;
+    color: white;
+    border-radius: 2px;
+}
+button:hover {
+    background-color: #E3B873;
+}
+.submit {
+    margin-left: 15px;
+}
+
+/* второй блок */
+.completed {
+    background: #131313;
+    display: flex;
+    padding-bottom: 416px;
+}
+.completed h2 {
+    font-size: 27px;
+    line-height: 37px;
+}
+.completed h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+.completed h2, h3 {
+    font-family: Yeseva;
+    font-weight: 400;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+.completed p {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+}
+.projects {
+    padding-left: 135px;
+    padding-top: 177px;
+    width: 442px;
+    height: 390px;
+}
+.projects_line { /* черта в заголовке */
+    width: 92px;
+    height:10px;
+    color: #E3B873;
+}
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider_item {
+    width: 161px;
+    padding-right: 50px;
+}
+.arrows {
+    display: inline;
+}
+/* .dot {
+    width: 9.6px;
+    height: 9.6px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+} */
+
+/* правая половина */
+.examples {
+    padding-top: 107px;
+    padding-left: 50px;
+    /* padding-bottom: 53px; */
+    width: 679px;
+}
+.examples_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Yeseva;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+.examples_item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+.examples_item:hover {
+    text-decoration: underline;
+}
+.examples_pic {
+    margin-top: 53px;
+    width: 679px;
+    height: 482px;
+    /* padding-left: 50px; */
+}
+
+/* Блок с камерой */
+.online_control {
+    margin-top: -360px;
+    text-align: center;
+    color: white;
+    font-family: Yeseva;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+.online_pic {
+    width: 817px;
+    height: 434px;
+    display: inline-block;
+    margin-top: 31px;
+}
+.camera-dash1 {
+    display: block;
+    margin-top: 63px;
+}
+.online-text {
+    color: black;
+    width: 681px;
+    height: 131px;
+    margin-top: 34.5px;
+    text-align: center;
+    display: inline-block;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+}
