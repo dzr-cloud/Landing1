@@ -23,8 +23,8 @@ body * {
 }
 .container {
     max-width: 1438px;
-    /* margin: 0 auto; */
-    margin-left: 134px;
+    margin: 0 auto;
+    /* margin-left: 134px; */
 }
 a {
     text-decoration: none;
@@ -43,7 +43,7 @@ a:hover {
     /* color: white; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between; /* было - space-around */
     font-size: 11px;
     color: white;
 }
@@ -139,7 +139,7 @@ button:hover {
     font-size: 18px;
     line-height: 25px;
 }
-.completed h2, h3 {
+h2, h3 {
     font-family: Yeseva;
     font-weight: 400;
     color: #E3B873;
@@ -218,7 +218,7 @@ button:hover {
 }
 
 /* Блок с камерой */
-.online_control {
+.online {
     margin-top: -360px;
     text-align: center;
     color: white;
@@ -388,4 +388,5 @@ input {
     margin-top: 100px;
     width: 1006px;
     height: 645px;
+    background-image: url(../img/building.png);
 }
