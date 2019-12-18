@@ -6,9 +6,18 @@
     src: url(../fonts/YesevaOne-Regular.ttf);
     font-family: Yeseva;
 }
+*, *:after, *:before {
+	box-sizing: border-box;
+	padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
 body {
     font-family: Nunito, sans-serif;
     margin: 0;
+}
+body * {
     box-sizing: border-box;
 }
 .container {
@@ -141,6 +150,7 @@ button:hover {
     font-weight: normal;
     font-size: 14px;
     line-height: 27px;
+    /* margin-top: 34px; */
 }
 .projects {
     /* padding-left: 135px; */
@@ -154,12 +164,14 @@ button:hover {
     color: #E3B873;
 }
 .slider {
+    margin-top: 42px;
     display: flex;
     flex-wrap: wrap;
 }
 .slider_item {
     width: 50%;
     /* padding-right: 50px; */
+    margin-top: 34px;
 }
 .arrows {
     display: inline;
@@ -236,4 +248,130 @@ button:hover {
     font-weight: normal;
     font-size: 18px;
     line-height: 37px;
+}
+
+/* Форма */
+.form {
+    width: 769px;
+    height: 51px;
+    margin-top: 92px;
+    color: black;
+    margin: 0 auto;
+}
+fieldset {
+    border: none;
+    margin: 0 auto;
+}
+label {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    /* color: black; */
+    border-bottom: 2px solid black;
+}
+.form_btn {
+    width: 200px;
+    height: 51px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    /* text-align: center; */
+    margin-left: 49px;
+}
+.checkbox {
+    margin-top: 39px;
+    color: black;
+
+}
+.types_repair {
+    text-align: center;
+    margin-top: 76px;
+}
+.types_repair>img {
+    margin-top: 13px;
+}
+.types_repair h2 {
+    font-family: Yeseva;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+.repair_item {
+    width: 392px;
+    height: 571px;
+}
+.repair_item img {
+    width: 392px;
+    height: 421px;
+    z-index: -1;
+}
+.repair_text {
+    margin-top: -127px ;
+    background: white;
+    color: #959595;
+    padding-top: 25px;
+    padding-right: 68px;
+    padding-left: 34px;
+    width: 330px;
+    height: 286px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .repair_text ul {
+    margin-left: 0;
+    padding: 0; */
+.repair_text h3 {
+    color: black;
+    font-family: Yeseva;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.repair_button {
+    width: 228px;
+    height: 54px;
+    margin-top: 23px;
+    background-color: #E3B873;
+    color: white;
+    font-family: Yeseva;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 17px 0;
+}
+.repair_wrap {
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 100px; */
+
+}
+/* Блок 3 */
+.building {
+    margin-top: 100px;
+    width: 1006px;
+    height: 645px;
 }
