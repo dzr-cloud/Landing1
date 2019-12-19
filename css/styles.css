@@ -402,7 +402,6 @@ input {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .building_item {
     width: 42px;
@@ -426,4 +425,12 @@ input {
 }
 .request_header {
     padding-top: 28px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: none;
 }
