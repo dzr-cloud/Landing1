@@ -136,6 +136,7 @@ button:hover {
 }
 .container_wrapper {
     display: flex;
+    justify-content: space-around;
 }
 .completed h2 {
     font-size: 27px;
@@ -238,6 +239,12 @@ h2, h3 {
     height: 434px;
     display: inline-block;
     margin-top: 31px;
+    background-image: url(../img/online1.png);
+}
+.camera {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
 }
 .camera-dash1 {
     display: block;
@@ -323,6 +330,7 @@ input {
 }
 .types_repair h2 {
     font-family: Yeseva;
+    color: black;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
