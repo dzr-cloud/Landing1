@@ -35,6 +35,8 @@ a:hover {
     transition: 0s;
     color: #E3B873;
 }
+
+/* Шапка с навигацией */
 .header {
     background-color: #131313;
 }
@@ -79,6 +81,7 @@ a:hover {
     outline: 0;
     padding: 13px 33px;
 }
+/* Блок 1 */
 .hero {
     background-image: url(../img/bg1.jpg);
     background-size: cover;
@@ -125,11 +128,14 @@ button:hover {
     margin-left: 15px;
 }
 
-/* второй блок */
+/* Блок 2 */
 .completed {
     background: #131313;
-    display: flex;
+    /* display: flex; */
     padding-bottom: 416px;
+}
+.container_wrapper {
+    display: flex;
 }
 .completed h2 {
     font-size: 27px;
@@ -265,7 +271,7 @@ fieldset {
     height: 51px;
 }
 label {
-    margin-top: 94px;
+    /* margin-top: 94px; */
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
