@@ -44,7 +44,7 @@
     
     <!-- Блок 2 общий контент -->
     <div class="completed">
-        <div class="container_wrapper">
+        <div class="container container_wrapper">
             <div class="projects"> <!--левая половина-->
                 <div class="completed_projects">
                 <h2>Completed <br> projects</h2>
@@ -126,9 +126,6 @@
                 <input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox">I agree to the processing of personal data</label> 
             </form>
-            <form class="checkbox">
-                
-            </form>
         </div>
     </div>
     <!-- Types of Repair -->
@@ -207,11 +204,28 @@
     
         <div class="request"> <!-- Правая половина -->
             <div class="request_wrap">
-                    <h3 class="request_header">Leave a request for free departure of the measurer</h3>
+                    <h3 class="request_header">Leave a request for free<br> departure of the measurer</h3>
                 <div class="request_form">
-
+                    <form method="post">
+                        <fieldset>
+                            <label>
+                             Name:
+                              <input type="text" name="username" placeholder="What is your name:">
+                            </label>
+                            <label>
+                              Phone:
+                              <input type="text" name="phone" placeholder="Your phone number:">
+                            </label>
+                            <label>
+                                Email:
+                                <input type="text" name="email" placeholder="Your email:">
+                            </label>
+                            <!-- <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">I agree to the processing of personal data</label>  -->
+                            <button class="button request_button">CALL THE MEASURER</button>
+                        </fieldset>
+                    </form>
                 </div>
-                <div class="request_button"></div>
             </div>
         </div> 
     </div>

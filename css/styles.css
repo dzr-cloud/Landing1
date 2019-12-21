@@ -134,7 +134,7 @@ button:hover {
     /* display: flex; */
     padding-bottom: 416px;
 }
-.container_wrapper {
+.container.container_wrapper {
     display: flex;
     justify-content: space-around;
 }
@@ -271,13 +271,13 @@ h2, h3 {
     width: 1055px;
     height: 69px;
 }
-fieldset {
+.form fieldset {
     border: none;
     margin: 0 auto;
     width: 769px;
     height: 51px;
 }
-label {
+.form label {
     /* margin-top: 94px; */
     font-family: Nunito Sans;
     font-style: normal;
@@ -289,7 +289,7 @@ label {
     flex-direction: column; /* Чтобы имя было над полем ввода */
     align-items: flex-start; /* Чтобы имя было над полем ввода */
 }
-input {
+.form input {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -447,4 +447,45 @@ input {
     text-align: center;
     color: #FFFFFF;
     text-transform: none;
+}
+.request_form {
+    margin: 39px 49px 73px;
+}
+.request_form fieldset {
+    width: 408px;
+    height: 244px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.request_form label {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-flex; /* Чтобы имя было над полем ввода */
+    flex-direction: column; /* Чтобы имя было над полем ввода */
+    align-items: flex-start;
+    border: none;
+}
+.request_form input {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    width: 408px;
+    margin-bottom: 48px;
+}
+.request_button {
+    margin-top: 17px;
+    margin-left: 200px;
+    width: 213px;
+    height: 51px;
 }
