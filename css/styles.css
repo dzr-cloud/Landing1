@@ -418,6 +418,10 @@ h2, h3 {
     justify-content: space-between;
 }
 .building_item {
+    display: flex;
+    align-items: center;
+}
+.building_number {
     width: 42px;
     height: 42px;
     background: #E3B873;
@@ -492,7 +496,48 @@ h2, h3 {
 .pig {
     width: 441px;
     height: 72px;
-    /* display: inline; */
+    display: flex;
+    align-items: center;
     margin-left: 860px;
     /* float: right; */
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+.clients_header, .clients_subheader {
+    text-align: center;
+}
+.clients_header img {
+    margin-top: 13px;
+    margin-bottom: 24px;;
+}
+.clients_subheader {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+.clients_examples {
+    width: 1236px;
+    height: 455px;
+    display: flex;
+    justify-content: space-around;
+}
+.clients_examples_item {
+    width: 376px;
+    height: 455px;
+}
+.clients_examples_item img {
+    border-radius: 50px;
+}
+.clients_name {
+    display: flex;
+    align-items: center;
 }
