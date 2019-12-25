@@ -68,17 +68,18 @@ a:hover {
     color: #E3B873;
     text-decoration: none;
 }
-.button {
-    width: 161px;
-    height: 37px;
+button {
     background-color: #E3B873;
-    color: white;
-    font-style: italic;
-    font-size: 11px;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     border: 0;
     outline: 0;
+}
+.button_call {
+    width: 161px;
+    height: 37px;
+    color: white;
+    font-size: 11px;
     padding: 13px 33px;
 }
 /* Блок 1 */
@@ -121,7 +122,10 @@ a:hover {
     color: white;
     border-radius: 2px;
 }
-button:hover {
+.calculate:hover {
+    background-color: #E3B873;
+}
+.submit:hover {
     background-color: #E3B873;
 }
 .submit {
@@ -146,9 +150,15 @@ button:hover {
     font-size: 18px;
     line-height: 25px;
 }
+.completed_projects h2 {
+    color: #E3B873;
+    text-transform: uppercase;
+}
 h2, h3 {
     font-family: Yeseva;
     font-weight: 400;
+}
+.slider h3 {
     color: #E3B873;
     text-transform: uppercase;
 }
@@ -528,16 +538,61 @@ h2, h3 {
     width: 1236px;
     height: 455px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 50px;
 }
 .clients_examples_item {
     width: 376px;
     height: 455px;
 }
-.clients_examples_item img {
+.clients_name img {
     border-radius: 50px;
+}
+.clients_name h3 {
+    margin-left: 20px;
+    font-family: Yeseva;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
 }
 .clients_name {
     display: flex;
     align-items: center;
+}
+.clients_feedback {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    margin-top: 20px;
+}
+.clients_button {
+    width: 294px;
+    height: 54px;
+    margin-top: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.vertical {
+    height: 54px;
+    border: 0.5px solid white;
+}
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+.clients_button_descr {
+    margin-left: 15px;
+    font-family: Yeseva;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
